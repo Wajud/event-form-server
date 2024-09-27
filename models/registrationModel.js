@@ -7,9 +7,9 @@ const registModel = new mongoose.Schema({
     unique: true,
   },
   phoneNumber: String,
-  isFan: Boolean,
-  isBasedInLagos: Boolean,
-  hearAbout: String,
+  isMember: Boolean,
+  isBasedInAbuja: Boolean,
+  hearAboutUs: String,
 });
 
 const attendeesModel = mongoose.model("attendees", registModel);
