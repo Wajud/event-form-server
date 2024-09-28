@@ -8,8 +8,8 @@ const registModel = new mongoose.Schema({
   },
   phoneNumber: String,
   isMember: Boolean,
-  isBasedInAbuja: Boolean,
-  hearAboutUs: String,
+  inAbuja: Boolean,
+  publicity: String,
 });
 
 const attendeesModel = mongoose.model("attendees", registModel);
